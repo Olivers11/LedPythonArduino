@@ -1,7 +1,7 @@
 for enable pc ports 
 `sudo chmod a+rw /dev/ttyUSB0`
 
-- Requires
-  pyfirmata `sudo pip3 install pyfirmata`
+## Requires
+  - [pyfirmata](https://pypi.org/project/pyFirmata/) `sudo pip3 install pyfirmata`
   
-  eel `sudo pip3 install eel`
+  - [eel](https://github.com/ChrisKnott/Eel) `sudo pip3 install eel`
