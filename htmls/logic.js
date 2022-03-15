@@ -1,14 +1,13 @@
 document.getElementById("btn_led").addEventListener('change', ()=>{
-    console.log("clicked");
     let status = document.getElementById('btn_led').checked;
     if(status){
 	document.getElementById('title').innerText = "Encendido";
 	changeForeground('green');
-	eel.turnOnLed();
+	eel.process(1);
     }else{
 	document.getElementById('title').innerText = "Apagado";
 	changeForeground('red');
-	eel.turnOffLed();
+	eel.process(0);
     }
 });
 
